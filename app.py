@@ -3,7 +3,8 @@ import time, random
 class ErrorAsiento(Exception): pass
 class ErrorCompra(Exception): pass
 
-HORARIOS = {"AVENGERS_DOOMSDAY": ["14:00", "17:00", "20:00"]}
+HORARIOS = {"AVENGERS_DOOMSDAY": ["14:00", "17:00", "20:00"],
+            "SHREK_5": ["15:00", "18:00", "20:00"]}
 ASIENTOS = {f"A{i}": {"reservado": False} for i in range(1, 21)}
 
 
